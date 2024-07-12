@@ -1,9 +1,9 @@
 ---
-title: "Demo Post 1"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
+title: "A Contextual Inquiry for the UM School of Public Health"
+description: "Finding the right project management software for the UM School of Public Health."
+pubDate: Sept-Dec 2022
 heroImage: "/post_img.webp"
-tags: ["tokio"]
+badge: "Evaluative Research"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
