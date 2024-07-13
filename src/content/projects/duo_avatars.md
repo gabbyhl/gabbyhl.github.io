@@ -1,14 +1,14 @@
 ---
 title: "Duolingo Avatars"
 description: End to end research project that evaluated the new Duolingo Avatars feature. Informed the strategy for the next iterations of the feature by identifying highest ROI improvements for design and product team.
-pubDate: May-August 2023
+pubDate: August 1 2023
 heroImage: "/avatarsheader.png"
 badge: "Evaluative Research"
 ---
 
 <div class="two_column grid grid-cols-1 gap-y-5 md:gap-x-5 md:grid-cols-3">
 
-<div class="grid_item bg-accent rounded-lg px-2 md:col-span-2"  id= "summary">
+<div class="grid_item bg-secondary rounded-lg px-5 md:col-span-2"  id= "summary">
 
 ## ⏱️ Tldr;
 I designed and implemented a research study evaluating the new **Duolingo Avatars** feature, with the goal of **increasing adoption** among users.
@@ -39,7 +39,7 @@ I designed and implemented a research study evaluating the new **Duolingo Avatar
 2. [Methods and Analysis](#methods)
 3. [Key Insights](#key-insights)
 3. [Recommendations and Impact](#recommendations-and-impact)
-5. [Personal Reflection](#analysis)
+5. [Personal Reflection](#reflections-and-things-learned)
 
 
 <div class="one_column">
@@ -48,7 +48,7 @@ I designed and implemented a research study evaluating the new **Duolingo Avatar
 
 ![Screenshot featuring white text that reads Become a Dulingo character with our new avatars, below the text there is a cartoon character depiction of a person with long brown hair, a mustache and a gray shirt](/avatars_blog_heading.png "Duolingo Blog Post Introducing Avatars")
 
-As a UX Research intern I was embedded on the connection team, within the Growth org. Connections works to grow the use of the social features on the app. My largest project was focused on **increasing adoption** of the new Duolingo Avatars feature, which allows users to create a cartoon version of themselves in the style of the Duolingo branded characters, and use that as their profile picture instead of an uploaded photo. I was tasked with **making recommendations for new iterations of the feature.**
+As a UX Research intern I was embedded on the Connections team, within the Growth org. Connections works to grow the use of the social features on the app. My largest project was focused on **increasing adoption** of the new Duolingo Avatars feature, which allows users to create a cartoon version of themselves in the style of the Duolingo branded characters, and use that as their profile picture instead of an uploaded photo. I was tasked with **making recommendations for new iterations of the feature.**
 
 
 The version of the avatar feature that became available to the public in the first few weeks of my internship was very basic. UX research before the release had been minimal.
@@ -65,7 +65,7 @@ From a UXR perspective this means it was important to determine **how users unde
 
 <div class="bg-base-200 text-base-content px-5 py-2 rounded-md">
 
-### Research Goals and Reserach Questions
+### Research Goals
 
 - **Inform the strategic direction of avatar iterations/optimizations** (avatar builder assets, avatar uses in app, etc.)
 
@@ -102,10 +102,10 @@ To inform the strategy for future iterations of the builder, my recommendations 
 
 - **60 Minute User interviews:**
 
-     I chose to do user interviews where I observed the participant going through the process of the creating an avatar and asked them talk aloud about the what they were thinking during the process. Interviews were divided into four parts:
+     I conducted user interviews where I observed the participant creating an avatar and asked them think aloud during the process. Interviews were divided into four parts:
 
     1. Duolingo use and past experience with avatars
-    2. Observation of current avatar experience
+    2. Observation of current avatar experience (thinking aloud)
     3. Concept testing: future builder iterations
     4. Concept testing: future uses of avatars in the app
 
@@ -118,29 +118,30 @@ To inform the strategy for future iterations of the builder, my recommendations 
   I used a modified affinity analysis, conducted on Figjam, to identify major themes in the interview data.
 
 ![different colored sticky notes clustered into various groups with large text above the groups](/avatars_affinity_analysis.png "Avatars Affinity Analysis")
-<div class="text-center text-sm italic">A screenshot of my affinity analysis.</div>
+<div class="text-center text-sm italic my-1">A screenshot of my affinity analysis.</div>
 
 - **Code interviews in reduct and highlight key examples for stakeholders**
 
   I also used reduct to code the interview transcripts by theme and cut together video examples of these themes to present to stakeholders.
 
 ![screenshot from Duolingo slack channel with message from a designer saying 'we love uxr' and screenshots of reduct videos I made](/avatars_delight_slack_screenshot.png "Avatars Affinity Analysis")
-<div class="text-center text-sm italic">A screenshot of from the Duolingo design slack–a designer excited by one of the videos I made on reduct of interview clips.</div>
+<div class="text-center text-sm italic my-5">A screenshot of from the Duolingo design slack–a designer excited by one of the videos I made on reduct of interview clips.</div>
 
-<div class="grid_item rounded-md text-base-content bg-base-200 px-5 py-1 my-3">
+## Key Insights
 
-## 💡 Key Insights
+
+<div class="grid_item rounded-md text-base-content bg-base-200 px-5 py-1 my-10">
 
 1. Many learners said their goal in the builder was to convey their personality and interests. A "recognizable" avatar does not necessarily mean a realistic depiction of yourself. **In place of an avatar that "accurately" depicts someone's features, an avatar that conveys personality can still fulfill the goal of self-expression.**
 
 2. **Expressions were the source of the most delight in the current builder experience.** They emphasize the humor and "quirkiness" that the Duolingo brand is known for and they let learners convey personality.
 
-3. In less built out categories, learners expected more choice. Facial hair, body types, clothing, and glasses were repeatedly described as being limited.
+3. **Avatars have the potential to make both lessons and social interactions feel more personalized and immersive.**
 </div>
 
-## 💥 Recommendations and Impact
+## Recommendations and Impact
 
-<div class="grid_item rounded-md text-base-content bg-secndary px-5 py-1">
+<div class="grid_item rounded-md text-base-content bg-base-200 px-5 py-1 my-5">
 
 ### Key Recommendations
 
@@ -148,38 +149,53 @@ To inform the strategy for future iterations of the builder, my recommendations 
 
 2.  **For highest ROl, focus first on assets that let users express personality and demonstrate their interests.** These categories include: clothing, and accessories/items such as country flags, sports equipment, headphones, musical instruments.
 
+3. **In the future, including avatars in lessons may be a way to introduce social elements into the learning experience, expanding the presence of social features into the core part of the app.**
+
+</div>
+
 </div>
 
 <div class="grid_item rounded-md text-base-content bg-base-200 px-5 py-1">
 
-###  Research Impact
+### 💥  Research Impact
 
   #### Design and Illustration Teams
 
-  **My research helped the design and illustration teams identify the categories that were the biggest priorities to add to the builder.** This included body types -> the options went from 2 to 6. And facial expressions. In particular, the design team was deciding between making the builder more granular by allowing users to make their own selections for each facial feature (eyes, nose, mouth etc.) indivudally or keeping the original design which had users choose a premade expression that determined all those things.
+  - The design team was deciding between making the builder more granular by allowing users to make their own selections for each facial feature (eyes, nose, mouth etc.) indivudally or keeping the original design which had users choose a premade expression that determined all those things. **After my research, the team chose to expand the offering of expressesions over customization of individual facial features.**
 
-  **My recommendation was to create more premade expressions, which is what the team ultimately did (as shown below).**
+  - **Identified the categories that were the biggest priorities to add to the avatar builder.** Example: This included body types -> the options went from 2 to 6.
 
   #### Product Team
-  My research helped inform the future strategy avatars–in particular the decision to move forward with building out the premade expressions and not overwhelming the user with choice by creating a granular builder that lets the user customize every facial feature individually.
+  - In concept testing future uses of the avatars in app, I demonstrated the potential of avatars to expand the prescence of social features in the app.
+  - This data will influence future strategy for connections team features, particularly how avatars may be incorporated into leaderboards and lessons.
 
 
   #### Marketing Team
-  My data had secondary impact on the marketing team- as many of the participants in my interviews discussed the Duolingo "brand" and described the avatars as part of a "branded experience".
+  - My data had secondary impact on the marketing team- many of the participants in my interviews discussed the Duolingo "brand" and described the avatars as part of a "branded experience".
 
 </div>
 
-## 🪩 Reflections and things learned
+<div class="flex gap-x-5 items-center">
 
-- **Be adaptable to ambiguity and changing stakeholder priorities**
-  This project went through many iterations
+<div class="flex-inital">
 
-- **
+![screenshot from Duolingo avatar builder showing the increased options for facial expressions](/avatars_facial_expressions.PNG "Avatars Affinity Analysis")
+</div>
 
+<div class="flex-inital">
 
+![screenshot from Duolingo avatar builder showing the increased options for body types](/avatars_body_types.PNG "Avatars Affinity Analysis")
+</div>
 
-<style>
-  #summary{
-    padding: 15px;
-  } */
-</style>
+<div class="flex-intial text-center text-sm italic">The Duolingo avatar a year after my internship, with more options for facial expressions and body types.</div>
+</div>
+
+## Reflections and things learned
+
+- **Be adaptable**
+
+  The goals of this project changed overtime and I had to quickly adjust the design of the study based on the changing goals of the stakeholders.
+
+- **Be creative in engaging stakeholders in all parts of the research process**
+
+  I shared research updates at Connections team meetings to get the software engineers involved and excited about the project. I created an open slack channel for the project that anyone could join, and provided updates and interesting insights there. Stakeholders were invited to attend interviews and take notes about what they saw in this slack channel. Most sucessful was my use of Reduct. I created videos to illustrate my insights and collected and shared the "fun" parts of interviews to get stakeholders excited.

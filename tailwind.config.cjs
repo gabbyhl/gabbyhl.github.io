@@ -1,18 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
-	theme: {
-		colors: {
-			"primary": "#004872",
-			"secondary":"#96B9D9",
-			"accent1": "#F2B6A0",
-			"neutral": "#7F707B",
-			"base-100": "#CEE4F2",
-			"accent2": "#FFF5D1",
-			"accent3": "#1E5356",
-		},
-		extend: {},
-	},
+	// theme: {
+	// 	colors: {
+	// 		"primary": "#004872",
+	// 		"secondary":"#96B9D9",
+	// 		"accent1": "#F2B6A0",
+	// 		"neutral": "#7F707B",
+	// 		"base-100": "#CEE4F2",
+	// 		"accent2": "#FFF5D1",
+	// 		"accent3": "#1E5356",
+	// 	},
+	// 	extend: {},
+	// },
 	plugins: [require("@tailwindcss/typography"),require("daisyui")],
 	daisyui: {
 		themes: [
