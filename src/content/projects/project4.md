@@ -1,9 +1,9 @@
 ---
-title: "Strategizing for a end of life/funeral planning platform"
-description: "Informing strategy for future iterations of new social product feature: Avatars"
-pubDate: Jan-May 2023
+title: "A Contextual Inquiry for the UM School of Public Health"
+description: "Finding the right project management software for the UM School of Public Health."
+pubDate: Sept-Dec 2022
 heroImage: "/post_img.webp"
-badge: "Generative Research"
+badge: "Coming Soon"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

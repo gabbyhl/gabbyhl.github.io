@@ -1,10 +1,12 @@
 ---
-title: "A Contextual Inquiry for the UM School of Public Health"
-description: "Finding the right project management software for the UM School of Public Health."
-pubDate: Sept-Dec 2022
-heroImage: "/post_img.webp"
-badge: "Evaluative Research"
+title: "Taste Buddy: An AI Cooking Assistant"
+description: "Informing strategy for future iterations of new social product feature: Avatars"
+pubDate: Jan-May 2023
+heroImage: "/taste_buddy_product_screen1.png"
+badge: "Coming Soon"
 ---
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer

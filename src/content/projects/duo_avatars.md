@@ -1,7 +1,7 @@
 ---
 title: "Duolingo Avatars"
 description: End to end research project that evaluated the new Duolingo Avatars feature. Informed the strategy for the next iterations of the feature by identifying highest ROI improvements for design and product team.
-pubDate: August 1 2023
+pubDate: June - August 2023
 heroImage: "/avatarsheader.png"
 badge: "Evaluative Research"
 ---
