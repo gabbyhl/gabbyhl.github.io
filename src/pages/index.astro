@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+import HorizontalCard_nolink from "../components/HorizontalCard_nolink.astro"
 import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
 
@@ -26,25 +27,39 @@ const last_posts = posts.slice(0, 3);
       </a>
     </div>
   </div> -->
-
-  <!-- <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+  <div class="divider my-2"></div>
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">My lastest projects</div>
   </div>
 
   <HorizontalCard
   title="Duolingo Avatars"
-  img="/post_img.webp"
-  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  url="#"
+  img="/avatarsheader.png"
+  desc="End to end research project that evaluated the new Duolingo Avatars feature. Informed the strategy for the next iterations of the feature by identifying highest ROI improvements for design and product team."
+  url="/projects/duolingo-avatars"
+  badge="Evaluative Research"
+  target="_self"
   />
   <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  <HorizontalCard_nolink
+    title="MI Safe Water"
+    img="/misafewaterheader.png"
+    desc="Helping Michigan well owners find trusted resurces on water quality and well maintence."
     url="#"
+    target="_self"
+    badge="Coming Soon"
   />
   <div class="divider my-0"></div>
+  <HorizontalCard_nolink
+  title="A Contextual Inquiry for the UM School of Public Health"
+  img="/umich_sph.jpg"
+  desc="Finding the right project management software for the UM School of Public Health Careers Office."
+  url="#"
+  target="_self"
+  badge="Coming Soon"
+/>
+</BaseLayout>
+  <!-- <div class="divider my-0"></div>
   <HorizontalCard
     title="Demo Project 3"
     img="/post_img.webp"
@@ -53,7 +68,7 @@ const last_posts = posts.slice(0, 3);
     badge="FOSS"
   /> -->
 
-  <div>
+  <!-- <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">My Latest Projects</div>
   </div>
 
@@ -71,5 +86,4 @@ const last_posts = posts.slice(0, 3);
         <div class="divider my-0" />
       </>
     ))
-  }
-</BaseLayout>
+  } --->

@@ -96,13 +96,17 @@ To inform the strategy for future iterations of the builder, my recommendations 
 ## Methods
 - **Pilot Study: Analysis of data from Fullstory:**
 
-    I started the project looking to determine if there were any usability issues in the builder or other barriers to setting an avatar that could be easily addressed. Along with a looking at the behavior of 15 users who opened the builder but did not set an avatar, I also reviewed initial reddit comments abut the feature and comments about avatars that were sent to the Duolingo help center.
+    Why this method: I started the project looking to determine if there were any usability issues in the builder or other barriers to setting an avatar that could be easily addressed.
+
+    Along with a looking at the behavior of 15 users who opened the builder but did not set an avatar in Fullstory, I also reviewed initial reddit comments abut the feature and comments about avatars that were sent to the Duolingo help center.
 
     **Outcome: No glaring usability issues- switch research focus to users' wants from and understandings of avatar builder.**
 
 - **60 Minute User interviews:**
 
-     I conducted user interviews where I observed the participant creating an avatar and asked them think aloud during the process. Interviews were divided into four parts:
+    Why this method: I wanted to understand more about how users thought about avatars and ask users questions in real time as they built an avatar.
+
+    I conducted user interviews where I observed the participant creating an avatar and asked them think aloud during the process. Interviews were divided into four parts:
 
     1. Duolingo use and past experience with avatars
     2. Observation of current avatar experience (thinking aloud)
