@@ -4372,8 +4372,9 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.39):
     dependencies:
       lilconfig: 3.1.2
-      postcss: 8.4.39
       yaml: 2.4.5
+    optionalDependencies:
+      postcss: 8.4.39
 
   postcss-nested@6.2.0(postcss@8.4.39):
     dependencies:
@@ -5036,7 +5037,7 @@ snapshots:
       fsevents: 2.3.3
 
   vitefu@0.2.5(vite@5.3.4):
-    dependencies:
+    optionalDependencies:
       vite: 5.3.4
 
   web-namespaces@2.0.1: {}
