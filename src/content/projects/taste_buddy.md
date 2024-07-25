@@ -1,6 +1,6 @@
 ---
 title: "Taste Buddy: An AI Cooking Assistant"
-description: "Informing strategy for future iterations of new social product feature: Avatars"
+description: "Designing an AI cooking assistant"
 pubDate: Jan-May 2023
 heroImage: "/taste_buddy_product_screen1.png"
 badge: "Coming Soon"

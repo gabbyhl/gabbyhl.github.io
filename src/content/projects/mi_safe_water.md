@@ -3,7 +3,7 @@ title: "MI Safe Water"
 description: "Helping Michigan well owners find trusted resurces on water quality and well maintence."
 heroImage: "/misafewaterheader.png"
 pubDate: January - April 2024
-badge: "Design and research"
+badge: "Foundational Research and Design"
 ---
 <div class="two_column grid grid-cols-1 gap-y-5 md:gap-x-5 md:grid-cols-3">
 
@@ -11,7 +11,7 @@ badge: "Design and research"
 
 ## ⏱️ Tldr;
 
-Designed and implented **discovery research** study to scope an ambiguous problem: "How can we help address water quality isues in Michigan?"
+Conducted **foundational research** study to scope an ambiguous problem starting with "How can we help address water quality isues in Michigan?" and ending up at **How might we empower residential homeowners in the process of finding trusted resources about well water quality?**
 
 **Designed an all in one application for private well owners** in the state of Michigan to find trusted resources and keep track of their water quality.
 
@@ -27,13 +27,19 @@ Designed and implented **discovery research** study to scope an ambiguous proble
 
 <h3 class="text-base-content">Methods Used:</h3>
 <ul class="marker:base-neutral-content">
-<li>User interviews</li>
-<li>Affinity analysis (Figma and Reduct)</li>
-<li>Analysis of data from Fullstory</li>
-<li>Brief recruitment survey (Qualtrics)</li>
+<li>Secondary Research</li>
+<li>User/Stakeholder Interviews</li>
+<li>Affinity Analysis (Miro)</li>
+<li>User Journey</li>
+<li>Interaction Design</li>
 </ul>
 </div>
 </div>
+
+  Preliminary & Secondary Research
+        Stakeholder/User Interviews
+        User Testing + Incentives
+        Interaction Design
 
 ## Jump to
 
