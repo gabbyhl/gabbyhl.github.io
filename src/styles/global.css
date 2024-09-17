@@ -1,3 +1,31 @@
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
+
+.nav-button {
+    margin-bottom: 5px;
+    background: #CEE4F2;
+    /* background-color: pink; */
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+.nav-button:hover{
+    border: 3px solid #7F707B;
+    background-color: #96B9D9;
+    /* text-decoration: underline wavy white; */
+    text-decoration-thickness: 1.10px;
+}
+
+/* :focus{
+    outline-color: black;
+}
+
+.nav-button:active:focus{
+    outline-color: black;
+} */
+.nav-button:focus{
+    /* outline-color: black; */
+    border: 3px solid #7F707B;
+    background-color: #96B9D9;
+}
