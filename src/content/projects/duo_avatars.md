@@ -46,7 +46,7 @@ I designed and implemented a research study evaluating the new **Duolingo Avatar
 
 ## Background
 
-![Screenshot featuring white text that reads Become a Dulingo character with our new avatars, below the text there is a cartoon character depiction of a person with long brown hair, a mustache and a gray shirt](/avatars_blog_heading.png "Duolingo Blog Post Introducing Avatars")
+![Screenshot featuring white text that reads Become a Duolingo character with our new avatars, below the text there is a cartoon character depiction of a person with long brown hair, a mustache and a gray shirt](/avatars_blog_heading.png "Duolingo Blog Post Introducing Avatars")
 
 As a UX Research intern I was embedded on the Connections team, within the Growth org. Connections works to grow the use of the social features on the app. My largest project was focused on **increasing adoption** of the new Duolingo Avatars feature, which allows users to create a cartoon version of themselves in the style of the Duolingo branded characters, and use that as their profile picture instead of an uploaded photo. I was tasked with **making recommendations for new iterations of the feature.**
 
@@ -59,7 +59,7 @@ _Minimal Previous UXR on Avatars:_
 
 
 ### Focus on learning
-Most of the projects the Duolingo connections team works on must balance the integration of social features, which are a lever for new users and retention, with the focus of Duolingo: learning. **Social features must support learning, not distract from it.**
+Most of the projects the Duolingo connections team work on must balance the integration of social features, which are a lever for new users and retention, with the focus of Duolingo: learning. **Social features must support learning, not distract from it.**
 
 From a UXR perspective this means it was important to determine **how users understood avatars as fitting (or not fitting) into their overall Duolingo experience, particularly the learning experience.** E.g Did they find them valuable? Were they feel extraneous or distracting?
 
@@ -165,7 +165,7 @@ To inform the strategy for future iterations of the builder, my recommendations 
 
   #### Design and Illustration Teams
 
-  - The design team was deciding between making the builder more granular by allowing users to make their own selections for each facial feature (eyes, nose, mouth etc.) indivudally or keeping the original design which had users choose a premade expression that determined all those things. **After my research, the team chose to expand the offering of expressesions over customization of individual facial features.**
+  - The design team was deciding between making the builder more granular by allowing users to make their own selections for each facial feature (eyes, nose, mouth etc.) indivdually or keeping the original design which had users choose a premade expression that determined all those things. **After my research, the team chose to expand the offerings of expressions over customization of individual facial features.**
 
   - **Identified the categories that were the biggest priorities to add to the avatar builder.** Example: This included body types -> the options went from 2 to 6.
 
