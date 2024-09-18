@@ -165,7 +165,7 @@ To inform the strategy for future iterations of the builder, my recommendations 
 
   #### Design and Illustration Teams
 
-  - The design team was deciding between making the builder more granular by allowing users to make their own selections for each facial feature (eyes, nose, mouth etc.) indivdually or keeping the original design which had users choose a premade expression that determined all those things. **After my research, the team chose to expand the offerings of expressions over customization of individual facial features.**
+  - The design team was deciding between making the builder more granular by allowing users to make their own selections for each facial feature (eyes, nose, mouth etc.) individually or keeping the original design which had users choose a premade expression that determined all those things. **After my research, the team chose to expand the offerings of expressions over customization of individual facial features.**
 
   - **Identified the categories that were the biggest priorities to add to the avatar builder.** Example: This included body types -> the options went from 2 to 6.
 
