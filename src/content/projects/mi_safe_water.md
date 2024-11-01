@@ -3,7 +3,10 @@ title: "MI Safe Water"
 description: "Helping Michigan well owners find trusted resurces on water quality and well maintence."
 heroImage: "/misafewaterheader.png"
 pubDate: January - April 2024
-badge: "Foundational Research and Design"
+badge: "Foundational Research and Ambiguous Problem"
+
+setup: |
+  import { Picture } from "astro-imagetools/components";
 ---
 <div class="two_column grid grid-cols-1 gap-y-5 md:gap-x-5 md:grid-cols-3">
 
@@ -11,199 +14,223 @@ badge: "Foundational Research and Design"
 
 ## ⏱️ Tldr;
 
-Conducted **foundational research** study to scope an ambiguous problem starting with "How can we help address water quality isues in Michigan?" and ending up at **How might we empower residential homeowners in the process of finding trusted resources about well water quality?**
+Conducted **foundational research** study to scope an ambiguous problem.
 
-**Designed an all in one application for private well owners** in the state of Michigan to find trusted resources and keep track of their water quality.
+Formulated design statement:
+ **How might we empower residential homeowners in the process of finding trusted resources about well water quality?**
 
-### Biggest Takeaways
-
- -  Prioritize creating more expressions (both neutral and fun) over creating a granular builder that lets users customize all features individually.
-
- -  Focus first on assets that let users express personality and demonstrate their interests.
-
+**Designed an all in one web application for private well owners** in the state of Michigan to find trusted resources and keep track of their water quality.
 </div>
 
 <div class="grid_item rounded-md text-base-content bg-base-200 px-5" id="tldr_methods">
 
 <h3 class="text-base-content">Methods Used:</h3>
 <ul class="marker:base-neutral-content">
-<li>Secondary Research</li>
-<li>User/Stakeholder Interviews</li>
-<li>Affinity Analysis (Miro)</li>
 <li>User Journey</li>
-<li>Interaction Design</li>
+<li>UI Design (Framer)</li>
+<li>User/Stakeholder Interviews</li>
+<li>User Testing (virtual, unmoderated)</li>
+<li>Affinity Analysis (Figjam)</li>
+<li>Secondary Research</li>
 </ul>
 </div>
 </div>
 
-  Preliminary & Secondary Research
-        Stakeholder/User Interviews
-        User Testing + Incentives
-        Interaction Design
-
 ## Jump to
 
-1. [Background and Reserach Goals](#background)
-2. [Methods and Analysis](#methods)
-3. [Key Insights](#key-insights)
-3. [Recommendations and Impact](#recommendations-and-impact)
-5. [Personal Reflection](#reflections-and-things-learned)
+1. [Background and Project Goals](#background-and-project-goals)
+2. [Exploratory Research and Scoping](#exploratory-research-and-scoping)
+3. [Initial Design](#initial-design)
+4. [User Testing: Evaluation of Initial Design](#evaluation-of-initial-design)
+5. [Final Design](#final-design)
+6. [Personal Reflection](#reflection-and-things-learned)
 
 
 <div class="one_column">
 
-## Background
+## Background and Project Goals
 
-![Screenshot featuring white text that reads Become a Dulingo character with our new avatars, below the text there is a cartoon character depiction of a person with long brown hair, a mustache and a gray shirt](/avatars_blog_heading.png "Duolingo Blog Post Introducing Avatars")
+![Five students smiling in front of a University of Michigan backdrop, holding a large first prize check for $5000.](/water_group_photo.png "Our team at the UMSI student expo awards ceremony")
 
-As a UX Research intern I was embedded on the Connections team, within the Growth org. Connections works to grow the use of the social features on the app. My largest project was focused on **increasing adoption** of the new Duolingo Avatars feature, which allows users to create a cartoon version of themselves in the style of the Duolingo branded characters, and use that as their profile picture instead of an uploaded photo. I was tasked with **making recommendations for new iterations of the feature.**
+- I completed this project as part of a capstone course in UX Research and Design for my Masters degree in Information Science at the University of Michigan School of Information (UMSI).
+
+ - The team that worked on this project was made up of myself and four other U of M students. Our responsibility in this course, taught by Aalap Dashi, was to use all of our design skills to **address an ambiguous problem**. Because of this, we were allowed to choose any project that interested us.
+
+ - This project **won first prize** in Residential Masters captsone projects at the UMSI 2024 Student Expo.
+
+**Our team started with this fuzzy goal: "How can we help improve access to water quality in Michigan?"**
+
+ -  We chose this goal primarily because of its social impact given the **importance of water quality to the state of Michigan** (e.g the state's proximity to The Great Lakes and the previous water quality issues and inequities such as the Flint Water Crisis.)
+
+## Exploratory Research and Scoping
+
+### Water Quality Information Access in Michigan: An Ambiguous Design Problem
+
+ As a team, we started this project conducting secondary research on issues related to water access and quality in the state of Michigan.
+
+![University of Michigan School of Information logo on background of bubbly water](/water-theme-graphic-bubbles.png "University of Michigan School of Information Water Theme Year logo")
+
+### Secondary research on water issues in the state of Michigan
+
+  - We consulted government websites, news articles, and previous academic research. More broadly, we examined non profit and government websites about water quality and access to water to get a sense of what resources were available to users, and to identify previous design solutions within the problem space. Because water conservation and access was the theme for that year at UMSI, we also had access to previously conducted interviews with subject matter experts.
+
+   - **Outcome: Identified major water quality and access issues in South East Michigan, in particular Dioxane contamination. Indentified potential group of users– Michigan Private Well Users.**
 
 
-The version of the avatar feature that became available to the public in the first few weeks of my internship was very basic. UX research before the release had been minimal.
-
-_Minimal Previous UXR on Avatars:_
-  - _internal dogfooding_
-  - _DEI audit from external consultant_
+### Private Well Owners Needs Evaluation
 
 
-### Focus on learning
-Most of the projects the Duolingo connections team works on must balance the integration of social features, which are a lever for new users and retention, with the focus of Duolingo: learning. **Social features must support learning, not distract from it.**
+<div class="two_column grid grid-cols-1 gap-y-5 md:gap-x-5 md:grid-cols-2">
 
-From a UXR perspective this means it was important to determine **how users understood avatars as fitting (or not fitting) into their overall Duolingo experience, particularly the learning experience.** E.g Did they find them valuable? Were they feel extraneous or distracting?
+<div class="grid_item px-5 md:col-span-1">
 
-<div class="bg-base-200 text-base-content px-5 py-2 rounded-md">
+#### Method: 60 Minute User interviews
+  - 4 Private well owners
+  - 2 Subject matter experts (From state government and local water quality advocacy group)</div>
 
-### Research Goals
+<div class="grid_item px-5 py-2 col-span-1 bg-secondary rounded-md">
 
-- **Inform the strategic direction of avatar iterations/optimizations** (avatar builder assets, avatar uses in app, etc.)
+![Screen shot of three group members on a zoom call, with looking at a digital map of dioxane plumes.](/SME_interview_Misafewater.png "Subject matter interview screenshot")
 
-- **Identify barriers, such as usability issues, users face in the adoption of an avatar**
+<div class="text-center text-sm italic pt-0 pb-5">Three group members including myself, conducting an interview with a subject matter expert of dioxane contamination in SE Michigan.</div></div>
 
+<div class="grid_item px-5 col-span-1">
+
+#### We used an **affinity analysis** to analyze our data.
+- After identifying key themes from the data, group members voted on how which problems we should focus on and from there created a "How Might We" design statement.
+
+- Our team experimented with generative AI (Claude) to help us with inital data analysis. We fact checked and personally evaluated all of that analysis.
 </div>
 
-### Initial Research Questions:
-- What are the pain points of the current avatar builder experience?
-- What motivates users to create an avatar?
-- Why don't users adopt an avatar?
-- What future iterations have the potential to most excite or delight
-users?
+<div class="grid_item md:col-span-1">
 
+<div class= "bg-secondary rounded-md px-5 pt-2">
 
-At first, _identifying elements to add to the builder was explicitly not a stakeholder priority._ My research goal was to identify any issues in the user flow of the avatar builder. However, results from my intiial pilot research indicated that there weren't any large usability issues and feedback from senior leadership on the feature was that it needed to have more options. So the goal of my research **shifted from usability issues and barriers of use to understanding what users really want in an avatar builder.**
+![different colored sticky notes clustered into various groups with large text above the groups](../../assets/water_affinity_map.png "Inital Interviews Affinity Analysis")
 
-### Constraints
-
-Even at the beginning of the design process, there was a question about how many options our users would want to be able to pick from in an avatar builder. How many categories? How many options per category? The thinking was that the builder needed to have enough options for people to express themselves, but we also didn’t want the builder to be too overwhelming. After the launch of the MVP it we hypthesized that lack of options was a much bigger concern for users than too many options.
-
-However, design and development of the next iteration of the feature faced a major constraint– the avatars project was a collaboration between the illustration team and designers and software engineers. **As the illustration team works on many projects at once for teams across Duolingo, they had a limited ammunt of time they could give to avatar project.**
-
-To inform the strategy for future iterations of the builder, my recommendations would have to answer:
-- **What are the highest impact changes we can make to the avatar feature?**
-- **Where should the illustration team use their limited bandwidth?**
-
-## Methods
-- **Pilot Study: Analysis of data from Fullstory:**
-
-    I started the project looking to determine if there were any usability issues in the builder or other barriers to setting an avatar that could be easily addressed. Along with a looking at the behavior of 15 users who opened the builder but did not set an avatar, I also reviewed initial reddit comments abut the feature and comments about avatars that were sent to the Duolingo help center.
-
-    **Outcome: No glaring usability issues- switch research focus to users' wants from and understandings of avatar builder.**
-
-- **60 Minute User interviews:**
-
-     I conducted user interviews where I observed the participant creating an avatar and asked them think aloud during the process. Interviews were divided into four parts:
-
-    1. Duolingo use and past experience with avatars
-    2. Observation of current avatar experience (thinking aloud)
-    3. Concept testing: future builder iterations
-    4. Concept testing: future uses of avatars in the app
-
-    **Outcome: Insights and recommendations from this work influenced future strategy for avatars**
-
-
-## Analysis
-- **Affinity analysis (Figma and Reduct)**
-
-  I used a modified affinity analysis, conducted on Figjam, to identify major themes in the interview data.
-
-![different colored sticky notes clustered into various groups with large text above the groups](/avatars_affinity_analysis.png "Avatars Affinity Analysis")
-<div class="text-center text-sm italic my-1">A screenshot of my affinity analysis.</div>
-
-- **Code interviews in reduct and highlight key examples for stakeholders**
-
-  I also used reduct to code the interview transcripts by theme and cut together video examples of these themes to present to stakeholders.
-
-![screenshot from Duolingo slack channel with message from a designer saying 'we love uxr' and screenshots of reduct videos I made](/avatars_delight_slack_screenshot.png "Avatars Affinity Analysis")
-<div class="text-center text-sm italic my-5">A screenshot of from the Duolingo design slack–a designer excited by one of the videos I made on reduct of interview clips.</div>
-
-## Key Insights
-
-
-<div class="grid_item rounded-md text-base-content bg-base-200 px-5 py-1 my-10">
-
-1. Many learners said their goal in the builder was to convey their personality and interests. A "recognizable" avatar does not necessarily mean a realistic depiction of yourself. **In place of an avatar that "accurately" depicts someone's features, an avatar that conveys personality can still fulfill the goal of self-expression.**
-
-2. **Expressions were the source of the most delight in the current builder experience.** They emphasize the humor and "quirkiness" that the Duolingo brand is known for and they let learners convey personality.
-
-3. **Avatars have the potential to make both lessons and social interactions feel more personalized and immersive.**
-</div>
-
-## Recommendations and Impact
-
-<div class="grid_item rounded-md text-base-content bg-base-200 px-5 py-1 my-5">
-
-### Key Recommendations
-
-1. **When creating more facial feature assests, prioritize creating more premade expressions (both neutral and fun) over creating a granular builder that lets users customize all features individually.** Expressions are delightful and fit in with the quirkiness of the Duolingo brand. The personality they convey could make up for a lack of granular feature customization, which would require more bandwidth from the illustration team.
-
-2.  **For highest ROl, focus first on assets that let users express personality and demonstrate their interests.** These categories include: clothing, and accessories/items such as country flags, sports equipment, headphones, musical instruments.
-
-3. **In the future, including avatars in lessons may be a way to introduce social elements into the learning experience, expanding the presence of social features into the core part of the app.**
-
+<div class= "text-center text-sm italic pt-0 pb-5">A screenshot of our team's affinity analysis.</div></div>
 </div>
 
 </div>
 
-<div class="grid_item rounded-md text-base-content bg-base-200 px-5 py-1">
+<div class="bg-base-200 text-base-content px-5 py-2 my-10 rounded-md">
 
-### 💥  Research Impact
+### Key Insights from Interviews:
 
-  #### Design and Illustration Teams
+1. Participants described having to do their own research to understand how to treat their well water. They identified a **lack of trustworthy, centralized information** on private well water quality and taking care of wells.
 
-  - The design team was deciding between making the builder more granular by allowing users to make their own selections for each facial feature (eyes, nose, mouth etc.) indivudally or keeping the original design which had users choose a premade expression that determined all those things. **After my research, the team chose to expand the offering of expressesions over customization of individual facial features.**
+2. **Participants do not necessarily think about their well water everyday, but they consider water quality an important and emotionally resonant issue.** Some participants described feeling "scared" or very concerned about dioxane contamination in Michigan.
 
-  - **Identified the categories that were the biggest priorities to add to the avatar builder.** Example: This included body types -> the options went from 2 to 6.
-
-  #### Product Team
-  - In concept testing future uses of the avatars in app, I demonstrated the potential of avatars to expand the prescence of social features in the app.
-  - This data will influence future strategy for connections team features, particularly how avatars may be incorporated into leaderboards and lessons.
-
-
-  #### Marketing Team
-  - My data had secondary impact on the marketing team- many of the participants in my interviews discussed the Duolingo "brand" and described the avatars as part of a "branded experience".
+4. Participants said that they most needed information about their well water **during the home buying process and after they purchased their new home**.
 
 </div>
 
-<div class="flex gap-x-5 items-center">
+<div class="bg-base-200 text-base-content px-5 py-2 my-10 rounded-md">
 
-<div class="flex-inital">
+### 💥 Research Impact :
+- Developed design statement: **How might we empower private well users in the proccess of finding trusted resources about well water quality?**
 
-![screenshot from Duolingo avatar builder showing the increased options for facial expressions](/avatars_facial_expressions.PNG "Avatars Affinity Analysis")
+- For our initial design, we experimented with unique ways of disseminating water quality information to make it easier for users to stay on top of well maintence. This information was incorporated into our user story.
+
+- After feedback on our initial design– we pivoted on our previous design for dessiminating information and **turned our user story into a user journey that describing a specific use case: a new home owner**. We chose this scenario based on data from these interviews.
+
 </div>
 
-<div class="flex-inital">
+## Initial Design
 
-![screenshot from Duolingo avatar builder showing the increased options for body types](/avatars_body_types.PNG "Avatars Affinity Analysis")
+**User story:**
+
+A michigan resident concerned about water quality, particularly dioxane, recieves a utility/water bill or property tax statement with a QR code. Scanning the code leads them to the Michigan Water Quality Dashboard, where they can choose to explore an interactive map displaying water quality data (including dioxane) by location or browse a commmunity forum filed with posts from verified Michigan residents about their water.
+
+
+<div class="bg-secondary text-base-content px-5 py-2 my-10 rounded-md">
+
+**Breadboard Map:**
+
+![Screenshot that contains the above user story text and a flow chart describing this user story in visual form](/misafewater_breadboard.png "Breadboard Map for Inital Design")
+
+<div class= "text-center text-sm italic pt-0 pb-5"> The breadboard map and user story we created for our initial design concept.</div> </div> </div>
+
+## Evaluation of Initial Design
+
+**Method:**
+In order to evaluate our initial design we saught feedback from our original 6 participants.
+
+- Each participant recieved an approximately five minute video of one of the team members walking through the user story and bread board map.
+
+- Participants were instructed to record (through video, writing, pen and paper notes and doodles, anything) their initial impressions of our design.
+
+<div class="bg-base-200 text-base-content px-5 py-2 my-10 rounded-md">
+
+### Key Insights from Evaluation:
+
+1. Participants were especially excited by the idea of a water quality dashboard, map and the design's social features.
+
+2. One of our subject matter experts was concerned about user privacy and stigmatizing certain communities/neighborhoods with regards to the water quality map.
+
+3. Participants were unsure about the logistics of recieving the QR code–saying they didn't recieve water or utility bills.
+
 </div>
 
-<div class="flex-intial text-center text-sm italic">The Duolingo avatar a year after my internship, with more options for facial expressions and body types.</div>
+<div class="bg-base-200 text-base-content px-5 py-2 my-10 rounded-md">
+
+### 💥 Impact:
+
+- Design Pivot: **Focus first on homeowners**, a specific user subsection of private well water users.
+  - Feedback from participants on our information dissemination design indicated that our attempt to include all possible private well users (renters, property managers, etc. ) wasn't working– **all of our private well users were homewners so we narrowed our scope to focus on this group** because we had the most data about their needs.
+
+  - To express this change, we created a **new user journey** that described a possible use case.
+
 </div>
 
-## Reflections and things learned
+## Final Design
 
-- **Be adaptable**
+### Key Features
 
-  The goals of this project changed overtime and I had to quickly adjust the design of the study based on the changing goals of the stakeholders.
+- **Central hub** for resources on water quality and well water testing
 
-- **Be creative in engaging stakeholders in all parts of the research process**
+- **Community map** that shows water qaulity data:
+  - Publically available data from trusted (state) resources
+  - Crowd sourced data from local community
 
-  I shared research updates at Connections team meetings to get the software engineers involved and excited about the project. I created an open slack channel for the project that anyone could join, and provided updates and interesting insights there. Stakeholders were invited to attend interviews and take notes about what they saw in this slack channel. Most sucessful was my use of Reduct. I created videos to illustrate my insights and collected and shared the "fun" parts of interviews to get stakeholders excited.
+- Account for users to **track water testing data for their well**:
+  - Account, identity, and testing verification required to participate shared data map
+  - Contributing to water testing results map is completely
+<div class="bg-secondary text-base-content px-5 py-2 my-10 rounded-md">
+
+### Journey Map
+
+![A visual and textual representation of user journey for our design. Describes a new homeowner who just moved to Michigan looking to purchase a house for their family. They are concerned and overwhelmed trying to research water quality issues, until they about the MiSafe Water dashboard from the local community. The dashboard provides an all in one location for information and water quality tracking, and a place to speak to ask questions to other locals.](/misafewater_journey.png "Mi Safe Water Journey map")
+
+<div class= "text-center text-sm italic pt-0 pb-5"> The journey map we developed to create our final design.</div> </div> </div>
+
+</div>
+
+<div class="bg-secondary text-base-content px-5 py-2 my-10 rounded-md">
+
+### Preliminary UI Design
+
+![Sreenshots of three mi safe water mobile pages. Featuring home page with linkes to testing resources, quality map and maintence resources, water quality tracking page with breakdown of water test results, and color coded map of SE Michigan.](/misafewater_ui.png "Mi Safe Water User Interface Concept")
+
+<div class= "text-center text-sm italic pt-0 pb-5"> Three screens for our Mi Safe Water prototype: the home screen, the screen for users to track their water quality, and the community water quality map.</div>
+
+
+#### Want to see more? Check out the basic prototype here: https://jaags.framer.ai/.
+
+- Because we wanted to experiment with emerging technology, our team chose to use Framer's AI feature to help build this site.
+
+</div>
+
+## Reflection and things learned
+
+- **Working with a research constraint: particants with similar backgrounds**
+
+  Though we sought paritcipants from multiple sources in an attempt to get a diverse array of participants, our four private well users were all homeowners. We attempted to address this constraint through the additional secondary research and conversations with our SME participants, but the understanding we had of non-home owner well users was incomplete. Ultimately, we narrowed to scope of the project by focusing our design on the needs of homeowners.
+
+
+- **The power of story.**
+
+  The direction for our design and its key features and the user flow became much clearer once we articulated our data based user journey. This user journey and along with our focus on social impact (raising awareness of water quality issues, increasing access to information) were noted by judges and attendees of the UMSI Expo as particularly compelling.
+
+
+
