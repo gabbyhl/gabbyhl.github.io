@@ -26,5 +26,5 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.13"
   },
-  "packageManager": "pnpm@9.6.0"
+  "packageManager": "npm@10.2.3"
 }
