@@ -39,7 +39,7 @@ I designed and implemented a research study evaluating the new **Duolingo Avatar
 2. [Methods and Analysis](#methods)
 3. [Key Insights](#key-insights)
 3. [Recommendations and Impact](#recommendations-and-impact)
-5. [Personal Reflection](#reflections-and-things-learned)
+5. [Personal Reflection](#reflection-and-things-learned)
 
 
 <div class="one_column">
@@ -115,21 +115,25 @@ To inform the strategy for future iterations of the builder, my recommendations 
 
     **Outcome: Insights and recommendations from this work influenced future strategy for avatars**
 
-
 ## Analysis
 - **Affinity analysis (Figma and Reduct)**
 
   I used a modified affinity analysis, conducted on Figjam, to identify major themes in the interview data.
 
+<div class="rounded-md text-base-content bg-secondary px-5 py-5 my-10">
+
 ![different colored sticky notes clustered into various groups with large text above the groups](/avatars_affinity_analysis.png "Avatars Affinity Analysis")
+
 <div class="text-center text-sm italic my-1">A screenshot of my affinity analysis.</div>
+</div>
 
 - **Code interviews in reduct and highlight key examples for stakeholders**
 
   I also used reduct to code the interview transcripts by theme and cut together video examples of these themes to present to stakeholders.
+<div class="grid_item rounded-md text-base-content bg-secondary px-5 py-5 my-10">
 
 ![screenshot from Duolingo slack channel with message from a designer saying 'we love uxr' and screenshots of reduct videos I made](/avatars_delight_slack_screenshot.png "Avatars Affinity Analysis")
-<div class="text-center text-sm italic my-5">A screenshot of from the Duolingo design slack–a designer excited by one of the videos I made on reduct of interview clips.</div>
+<div class="text-center text-sm italic my-5">A screenshot of from the Duolingo design slack–a designer excited by one of the videos I made on reduct of interview clips.</div></div>
 
 ## Key Insights
 
@@ -186,7 +190,7 @@ To inform the strategy for future iterations of the builder, my recommendations 
 ![screenshot from Duolingo avatar builder showing the increased options for facial expressions](/avatars_facial_expressions.PNG "Avatars Affinity Analysis")
 </div>
 
-<div class="flex-inital">
+<div class="flex-inital ">
 
 ![screenshot from Duolingo avatar builder showing the increased options for body types](/avatars_body_types.PNG "Avatars Affinity Analysis")
 </div>
@@ -194,7 +198,7 @@ To inform the strategy for future iterations of the builder, my recommendations 
 <div class="flex-intial text-center text-sm italic">The Duolingo avatar a year after my internship, with more options for facial expressions and body types.</div>
 </div>
 
-## Reflections and things learned
+## Reflection and things learned
 
 - **Be adaptable**
 
