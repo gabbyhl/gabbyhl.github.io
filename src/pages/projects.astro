@@ -18,8 +18,8 @@ const posts = (await getCollection("projects")).sort((a, b) => b.data.pubDate.va
 <BaseLayout sideBarActiveItemID="projects">
   <!-- <div>
     <div class="text-3xl w-full font-bold mb-2">Portfolio of Projects</div>
-  </div>
-  {
+  </div> -->
+  <!-- {
     posts.map((post) => (
       <>
         <HorizontalCard
@@ -33,8 +33,8 @@ const posts = (await getCollection("projects")).sort((a, b) => b.data.pubDate.va
         <div class="divider my-0" />
       </>
     ))
-  }
-</BaseLayout> -->
+  } -->
+<!-- </BaseLayout> -->
 
 <div>
   <div class="text-3xl w-full font-bold mb-2">Portfolio of projects</div>
@@ -59,13 +59,13 @@ target="_self"
 />
 
 <div class="divider my-0"></div>
-<HorizontalCard_nolink
-title="A Contextual Inquiry for the UM School of Public Health"
+<HorizontalCard
+title="UM School of Public Health"
 img="/umich_sph.jpg"
-desc="Finding the right project management software for the UM School of Public Health Careers Office."
-url="#"
+desc="Finding the right project management software for the University of Michigan School of Public Health Careers Office."
+url="/projects/contextual-inquiry-for-the-um-school-of-public-health"
 target="_self"
-badge="Coming Soon"
+badge="Internal UX Research"
 />
 <div class="divider my-0"></div>
 <HorizontalCard_nolink

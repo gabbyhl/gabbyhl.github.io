@@ -87,14 +87,14 @@ At first, _identifying elements to add to the builder was explicitly not a stake
 
 Even at the beginning of the design process, there was a question about how many options our users would want to be able to pick from in an avatar builder. How many categories? How many options per category? The thinking was that the builder needed to have enough options for people to express themselves, but we also didn’t want the builder to be too overwhelming. After the launch of the MVP it we hypthesized that lack of options was a much bigger concern for users than too many options.
 
-However, design and development of the next iteration of the feature faced a major constraint– the avatars project was a collaboration between the illustration team and designers and software engineers. **As the illustration team works on many projects at once for teams across Duolingo, they had a limited ammunt of time they could give to avatar project.**
+However, design and development of the next iteration of the feature faced a major constraint– the avatars project was a collaboration between the illustration team and designers and software engineers. **As the illustration team works on many projects at once for teams across Duolingo, they had a limited ammount of time they could give to avatar project.**
 
 To inform the strategy for future iterations of the builder, my recommendations would have to answer:
 - **What are the highest impact changes we can make to the avatar feature?**
 - **Where should the illustration team use their limited bandwidth?**
 
 ## Methods
-- **Pilot Study: Analysis of data from Fullstory:**
+- **Pilot Study Analysis of data from Fullstory:**
 
     Why this method: I started the project looking to determine if there were any usability issues in the builder or other barriers to setting an avatar that could be easily addressed.
 

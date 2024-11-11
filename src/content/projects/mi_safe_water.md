@@ -46,8 +46,6 @@ Formulated design statement:
 6. [Personal Reflection](#reflection-and-things-learned)
 
 
-<div class="one_column">
-
 ## Background and Project Goals
 
 ![Five students smiling in front of a University of Michigan backdrop, holding a large first prize check for $5000.](/water_group_photo.png "Our team at the UMSI student expo awards ceremony")
@@ -92,7 +90,7 @@ Formulated design statement:
 
 ![Screen shot of three group members on a zoom call, with looking at a digital map of dioxane plumes.](/SME_interview_Misafewater.png "Subject matter interview screenshot")
 
-<div class="text-center text-sm italic pt-0 pb-5">Three group members including myself, conducting an interview with a subject matter expert of dioxane contamination in SE Michigan.</div></div>
+<div class="text-center text-sm italic pt-0 pb-5">Three group members including myself, conducting an interview with a subject matter expert on dioxane contamination in SE Michigan.</div></div>
 
 <div class="grid_item px-5 col-span-1">
 
@@ -168,7 +166,7 @@ In order to evaluate our initial design we saught feedback from our original 6 p
 
 2. One of our subject matter experts was concerned about user privacy and stigmatizing certain communities/neighborhoods with regards to the water quality map.
 
-3. Participants were unsure about the logistics of recieving the QR code–saying they didn't recieve water or utility bills.
+3. Participants were unsure about the logistics of receiving the QR code–saying they didn't receive water or utility bills.
 
 </div>
 

@@ -38,3 +38,16 @@ h3 {
     padding-top: 0;
     margin-top: 0;
 }
+
+table, th, td{
+    border: 2px solid #000000;
+}
+
+table tbody tr td:first-child{
+    padding-left: 2%;
+}
+
+div table thead tr th{
+    text-align: center !important;
+    padding-top: 2%;
+}
