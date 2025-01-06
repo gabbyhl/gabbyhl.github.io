@@ -13,17 +13,14 @@
 .nav-button:hover{
     border: 3px solid #7F707B;
     background-color: #96B9D9;
-    /* text-decoration: underline wavy white; */
     text-decoration-thickness: 1.10px;
 }
 
 /* :focus{
     outline-color: black;
 }
+*/
 
-.nav-button:active:focus{
-    outline-color: black;
-} */
 .nav-button:focus{
     /* outline-color: black; */
     border: 3px solid #7F707B;
