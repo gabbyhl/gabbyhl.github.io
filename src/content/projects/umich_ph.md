@@ -10,7 +10,7 @@ badge: "Internal UX Research"
 
 <div class="grid_item bg-secondary rounded-lg px-5 md:col-span-2"  id= "summary">
 
-## ⏱️ Tldr;
+## ⏱️ Tl;dr
 The University of Michigan School of Public Health Careers Office requested we **evaluate their current project management system and recommend a new system** that could be adopted by everyone in the office.
 
 ### Biggest Takeaways

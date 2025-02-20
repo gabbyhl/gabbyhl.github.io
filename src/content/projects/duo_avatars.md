@@ -10,7 +10,7 @@ badge: "Evaluative Research"
 
 <div class="grid_item bg-secondary rounded-lg px-5 md:col-span-2"  id= "summary">
 
-## ⏱️ Tldr;
+## ⏱️ Tl;dr
 I designed and implemented a research study evaluating the new **Duolingo Avatars** feature, with the goal of **increasing adoption** among users.
 
 ### Biggest Takeaways
@@ -81,13 +81,13 @@ From a UXR perspective this means it was important to determine **how users unde
 users?
 
 
-At first, _identifying elements to add to the builder was explicitly not a stakeholder priority._ My research goal was to identify any issues in the user flow of the avatar builder. However, results from my intiial pilot research indicated that there weren't any large usability issues and feedback from senior leadership on the feature was that it needed to have more options. So the goal of my research **shifted from usability issues and barriers of use to understanding what users really want in an avatar builder.**
+At first, _identifying elements to add to the builder was explicitly not a stakeholder priority._ My research goal was to identify any issues in the user flow of the avatar builder. However, results from my intiial pilot research indicated that there weren't any large usability issues. Feedback from senior leadership on the feature was that it needed to have more choices for users. So the goal of my **research shifted from usability issues and barriers of use to understanding what users really want in an avatar builder.**
 
 ### Constraints
 
-Even at the beginning of the design process, there was a question about how many options our users would want to be able to pick from in an avatar builder. How many categories? How many options per category? The thinking was that the builder needed to have enough options for people to express themselves, but we also didn’t want the builder to be too overwhelming. After the launch of the MVP it we hypthesized that lack of options was a much bigger concern for users than too many options.
+Even at the beginning of the design process, there was a question about how many options our users would want to be able to pick from in an avatar builder. How many categories? How many options per category? The thinking was that the builder needed to have enough options for people to express themselves, but we also didn’t want the builder to be too overwhelming. After the launch of the MVP we hypthesized that lack of options was a much bigger concern for users than too many options.
 
-However, design and development of the next iteration of the feature faced a major constraint– the avatars project was a collaboration between the illustration team and designers and software engineers. **As the illustration team works on many projects at once for teams across Duolingo, they had a limited ammount of time they could give to avatar project.**
+However, design and development of the next iteration of the feature faced a major constraint– the avatars project was a collaboration between the illustration team and designers and software engineers. **As the illustration team works on many projects at once for teams across Duolingo, they had a limited amount of time they could give to avatar project.**
 
 To inform the strategy for future iterations of the builder, my recommendations would have to answer:
 - **What are the highest impact changes we can make to the avatar feature?**

@@ -12,7 +12,7 @@ setup: |
 
 <div class="grid_item bg-secondary rounded-lg px-5 md:col-span-2"  id= "summary">
 
-## ⏱️ Tldr;
+## ⏱️ Tl;dr
 
 Conducted **foundational research** study to scope an ambiguous problem.
 
